@@ -27,7 +27,7 @@ app.use(function(req,res,next){ //catches all requests to root '/'
     console.log(req.method ,req.url);       //and prints out the string in the URL
 ;})
 
-app.listen(3003, () => console.log('server listening')); //tell our server to listen on 3003 and print out console.log
+app.listen(3003, () => console.log('server listening')); ///tell our server to listen on 3003 and print out console.log
 
 
 
