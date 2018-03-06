@@ -32,6 +32,11 @@ body {
   margin: 20px 0;
 }
 
+.donkey {
+  width: 500px;
+  height: 300px;
+}
+
 #footer > .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -56,4 +61,12 @@ code {
 }
 .content .by {
   font-weight: bold;
+}
+
+tr {
+  color:blue;
+}
+
+.red {
+  background-color:red;
 }

@@ -7,7 +7,7 @@
   </div>
   <div class="row">
     <div class="col-md-3">
-      <img src="https://i.ytimg.com/vi/3T7FYQRx0YM/maxresdefault.jpg"><br>
+      <img class="donkey" src="https://i.ytimg.com/vi/3T7FYQRx0YM/maxresdefault.jpg"><br>
       <b>Your Name</b><br>
       100,000 followers
     </div>
@@ -15,7 +15,12 @@
     
       <!-- display tweets here -->
       {% for tweet in tweets %}
-        <li>{{tweet.content}}</li>
+        <li>
+            <table class="table table-striped">
+                <tr> {{tweet.name}} </tr>
+                <td>{{tweet.content}}</td>
+            </table>
+        </li>
       {% endfor %}
       
     </div>
